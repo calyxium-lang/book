@@ -12,7 +12,7 @@ The following is a list of keywords currently in use, with their functionality d
 - `else` - fallback for `then` and `if` control flow constructs
 - `let` - bind a variable
 - `match` - match a value to patterns
-- `with` - 
+- `with` - branch based on the value of match
 - `return` - returns from function
 - `for` - loops over items from an iterator or unconditionally
 - `use` - in a module path, refers to the modules root

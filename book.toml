@@ -1,0 +1,9 @@
+[book]
+title = "The Calyxium Programming Language"
+authors = ["Codezz-ops"]
+
+[output.html]
+git-repository-url = "https://github.com/Calyxium-Lang/book"
+
+[calyxium]
+edition = "2025"
