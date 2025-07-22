@@ -8,7 +8,7 @@ You'll start by making a directory to store your Calyxium code. It doesn't matte
 your projects there.
 
 Open a terminal and enter the following commands to make a _projects_ directory
-and a directory for the “Hello, world!” project within the _projects_ directory.
+and a directory for the `“Hello, world!”` project within the _projects_ directory.
 
 For Linux, macOS and PowerShell on Windows, enter this
 
@@ -29,12 +29,12 @@ For Windows CMD, enter this:
 
 ### Writing and Running a Calyxium Program
 
-Next, make a new source file and call it _main.cx_. Calyxium files always end with
-the _.cx_ extension. If you’re using more than one word in your filename, the
+Next, make a new source file and call it `main.cx`. Calyxium files always end with
+the `.cx` extension. If you’re using more than one word in your filename, the
 convention is to use an underscore to separate them. For example, use
-_hello_world.cx_ rather than _helloworld.cx_.
+`hello_world.cx` rather than `helloworld.cx`.
 
-Now open the _main.cx_ file you just created and enter the code in Listing 1-1.
+Now open the `main.cx` file you just created and enter the code in listed below.
 
 <Listing number="1-1" file-name="main.cx" caption="A program that prints `Hello, world!`">
 
@@ -44,8 +44,8 @@ println("Hello, world!")
 
 </Listing>
 
-Save the file and go back to your terminal window in the
-_~/projects/hello_world_ directory. On Linux or macOS, enter the following
+Save the file and go back to your terminal in the
+`~/projects/hello_world` directory. On Linux or macOS, enter the following
 commands to run the file:
 
 ```console
