@@ -67,6 +67,6 @@ println("Hello, world!")
 
 This line does all the work in this little program: it prints text to the screen. There are two important details to notice here.
 
-First, `println` calls the function to display contents to you're terminal.
+First, `println` calls the function to display contents to your terminal.
 
 Second, you see the `"Hello, world!"` string. We pass this string as an argument to `println`, and the string is printed to the screen.
