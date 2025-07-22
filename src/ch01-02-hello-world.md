@@ -27,7 +27,7 @@ For Windows CMD, enter this:
 > cd hello_world
 ```
 
-### # Writing and Running a Calyxium Program
+### Writing and Running a Calyxium Program
 
 Next, make a new source file and call it _main.cx_. Calyxium files always end with
 the _.cx_ extension. If you’re using more than one word in your filename, the

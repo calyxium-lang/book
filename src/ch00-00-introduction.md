@@ -32,7 +32,7 @@ far. Chapters 2, 12, and 21 are project chapters; the rest are concept chapters.
 
 Chapter 1 explains how to install Calyxium, how to write a “Hello, world!” program.
 
-Chapter 2 is a hands-on introduction to writing a program in Rust, having you build up a
+Chapter 2 is a hands-on introduction to writing a program in Calyxium, having you build up a
 number guessing game. Here we cover concepts at a high level, and later
 chapters will provide additional detail. If you want to get your hands dirty
 right away, Chapter 2 is the place for that. 
