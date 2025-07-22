@@ -30,7 +30,7 @@ chapters. In concept chapters, you’ll learn about an aspect of Calyxium. In pr
 chapters, we’ll build small programs together, applying what you’ve learned so
 far. Chapters 2, 12, and 21 are project chapters; the rest are concept chapters.
 
-Chapter 1 explains how to install Calyxium, how to write a “Hello, world!” program.
+Chapter 1 explains how to install Calyxium, how to write a `“Hello, world!”` program.
 
 Chapter 2 is a hands-on introduction to writing a program in Calyxium, having you build up a
 number guessing game. Here we cover concepts at a high level, and later
