@@ -1,8 +1,8 @@
 ## Installation
 
-The first step is to install Calyxium. We'll download Calyxium through `calyxi`, a command line tool for managing Calyxium versions and associated tools. You’ll need an internet connection for the download.
+The first step is to install Calyxium. We'll download Calyxium through `calyxup`, a command line tool for managing Calyxium versions and associated tools. You’ll need an internet connection for the download.
 
-> Note: if you perfer not to use `calyxi` for some reason, please see the
+> Note: if you perfer not to use `calyxup` for some reason, please see the
 > [Other Calyxium Installation Methods page](#) for more options.
 
 The following steps install the latest stable version of the Calyxium interpreter. Calyxium's stability guarantees ensure that all the examples in the book that
@@ -20,17 +20,18 @@ these steps should work as expected with the content of this book.
 > show the output of the previous command. Additionally, PowerShell-specific
 > examples will use `>` rather than `$`.
 
-### Installing `calyxi` on Linux or macOS
+### Installing `Calyxium` and `calyxup` on Windows, Linux and MacOS
 
-If you're using Linux or macOS, open a terminal and enter the following commnad:
+> PowerShell is required for clayxup
+> you can find instructions on how to install [PowerShell here](https://learn.microsoft.com/en-us/powershell/scripting/whats-new/migrating-from-windows-powershell-51-to-powershell-7?view=powershell-7.5)
+
+Open a PowerShell terminal and enter the following commnad:
 
 ```console
-$ curl --proto '=https' --tlsv1.2 <add link> -sSF | sh
+> curl --proto '=https' --tlsv1.2 <add link> | pwsh -Command -
 ```
-The command downloads a script and starts the installation of the `calyxi`
+The command downloads a script and starts the installation of the `calyxup`
 tool, which installs the latest stable version of Calyxium. You might be prompted
-for your password. If the install is successful, the following line will appear:
+for your password.
 
-```text
-Calyxium is installed now. Great!
-```
+# TODO add install instructions when calyxi is done 
