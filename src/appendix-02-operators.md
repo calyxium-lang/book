@@ -44,6 +44,8 @@ Table B-1 contains the operators in Calyxium, an example of how the operator wou
 | `$`                       | `expr $ expr`                                           | Bitwise XOR.                                                          |
 | `~`                       | `~ expr`                                                | Bitwise NOT.                                                          |
 | `->`                      | `pat -> expr`                                           | Part of match arm syntax.                                             |
+| `\|>`                     | `var \|> expr`, `expr \|> expr`                         | Passes left-hand value as input to right-hand expression.             |
+| `\|`                      | `\| pat`                                                | Part of match arn syntax.                                             | 
 
 Table B-2 shows symbola that create comments.
 
