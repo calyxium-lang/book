@@ -6,7 +6,7 @@ The first step is to install Calyxium. We'll download Calyxium through `calyxup`
 > [Other Calyxium Installation Methods page](#) for more options.
 
 The following steps install the latest stable version of Calyxium, which is compatible with all of the book's examples.
-Some of the program's outputs may vary from the book examples because Calyxium often improves error messages and warnings. 
+Some program outputs may vary from the book because Calyxium often improves error messages and warnings. 
 In other words, any newer, stable version of Calyxium you install using these steps should work as expected with the content of this book.
 
 > ### Command Line Notation
