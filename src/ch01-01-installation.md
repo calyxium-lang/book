@@ -15,7 +15,7 @@ In other words, any newer, stable version of Calyxium you install using these st
 > Lines entered in the terminal all start with `$` or `>`.
 > You don’t need to type either character; it’s the command line prompt shown to
 > indicate the start of each command. Lines that don’t start with `$` typically
-> show the output of the previous command. Generally, PowerShell-specific
+> show the output of the previous command. Unless stated otherwise, PowerShell-specific
 > examples will use `>` rather than `$`.
 
 ### Installing `Calyxium` and `calyxup` on Windows, Linux and MacOS
