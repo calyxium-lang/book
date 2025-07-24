@@ -10,7 +10,7 @@ The following is a list of keywords currently in use, with their functionality d
 - `if` - branch based on the result of a conditional expression
 - `then` - fallback for `if` control flow constructs
 - `else` - fallback for `then` and `if` control flow constructs
-- `let` - bind a variable and function
+- `let` - bind a variable or function
 - `match` - match a value to patterns
 - `with` - branch based on the value of match
 - `return` - returns from function
