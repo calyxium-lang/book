@@ -34,8 +34,8 @@ Table B-1 contains the operators in Calyxium, an example of how the operator wou
 | `*=`                      | `var *= expr`                                           | Arithmetic multiplication and assignment.                             |
 | `/=`                      | `var /= expr`                                           | Arithmetic division and assignment.                                   |
 | `&=`                      | `var &= expr`                                           | Bitwise AND and assignment.                                           |
-| <code>&#x60;=</code>      | <code>var &#x60;= expr</code>                           | Bitwise OR and assignemnt.                                            |
-| `$=`                      | `var $= expr`                                           | Bitwise XOR and assignemnt.                                           |
+| <code>&#x60;=</code>      | <code>var &#x60;= expr</code>                           | Bitwise OR and assignment.                                            |
+| `$=`                      | `var $= expr`                                           | Bitwise XOR and assignment.                                           |
 | `<<=`                     | `var <<= expr`                                          | Left-shift and assignment.                                            |
 | `>>=`                     | `var >>= expr`                                          | Right-shift and assignment.                                           |
 | `++`                      | `var++`, `expr++`                                       | Incrementation.                                                       |
@@ -47,7 +47,7 @@ Table B-1 contains the operators in Calyxium, an example of how the operator wou
 | `\|>`                     | `var \|> expr`, `expr \|> expr`                         | Passes left-hand value as input to right-hand expression.             |
 | `\|`                      | `\| pat`                                                | Part of match arn syntax.                                             | 
 
-Table B-2 shows symbola that create comments.
+Table B-2 shows symbols that create comments.
 
 <span class="caption">Table B-2: Comments</span>
 

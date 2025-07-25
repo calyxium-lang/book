@@ -4,11 +4,11 @@ Now that you've installed Calyxium, it's time to write your first Calyxium progr
 
 ### Creating a Project Directory
 
-You'll start by making a directory to store your Calyxium code. It doesn't matter to Calyxium where your code lives, but for the exercises and projects in this book, we suggest making a _projects_ directory in your home directory and keeping all
+You'll start by making a directory to store your Calyxium code. It doesn't matter to Calyxium where your code lives, but for the exercises and projects in this book, we suggest making a `projects` directory in your home directory and keeping all
 your projects there.
 
-Open a terminal and enter the following commands to make a _projects_ directory
-and a directory for the `“Hello, world!”` project within the _projects_ directory.
+Open a terminal and enter the following commands to make a `projects` directory
+and a directory for the `“Hello, world!”` project within the `projects` directory.
 
 For Linux, macOS and PowerShell on Windows, enter this
 
@@ -36,16 +36,13 @@ convention is to use an underscore to separate them. For example, use
 
 Now open the `main.cx` file you just created and enter the code in listed below.
 
-<Listing number="1-1" file-name="main.cx" caption="A program that prints `Hello, world!`">
 
 ```calyxium
-println("Hello, world!")
+print("Hello, world!")
 ```
 
-</Listing>
-
 Save the file and go back to your terminal in the
-`~/projects/hello_world` directory. On Linux or macOS, enter the following
+`~/projects/hello_world` directory. Enter the following
 commands to run the file:
 
 ```console
@@ -57,16 +54,18 @@ Regardless of your operating system, the string `Hello, world!` should print to
 the terminal.
 
 If `Hello, world!` did print, congratulations! You’ve officially written a Calyxium
-program. That makes you a Calyxium programmer—welcome!
+program. That makes you a Calyxium programmer Welcome!
 
 Let’s review this “Hello, world!” program in detail.
 
 ```calyxium
-println("Hello, world!")
+print("Hello, world!")
 ```
 
 This line does all the work in this little program: it prints text to the screen. There are two important details to notice here.
 
-First, `println` calls the function to display contents to your terminal.
+- `print` calls the function to display contents to your terminal.
 
-Second, you see the `"Hello, world!"` string. We pass this string as an argument to `println`, and the string is printed to the screen.
+- You see the `"Hello, world!"` string. We pass this string as an argument to `print`, and the string is printed to the screen.
+
+- Unlike in Python, `print` does not automatically add a newline `\n` at the end. If you want a line break, you’ll need to include `\n` yourself.

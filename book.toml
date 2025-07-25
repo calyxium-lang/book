@@ -1,6 +1,7 @@
 [book]
 title = "The Calyxium Programming Language"
 authors = ["Codezz-ops", "Crab-K1ng"]
+language = "en"
 
 [output.html]
 git-repository-url = "https://github.com/Calyxium-Lang/book"

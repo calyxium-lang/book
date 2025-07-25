@@ -2,7 +2,7 @@
 
 The first step is to install Calyxium. We'll download Calyxium through `calyxup`, a command line tool for managing Calyxium versions and associated tools. You’ll need an internet connection for the download.
 
-> Note: if you perfer not to use `calyxup` for some reason, please see the
+> Note: if you prefer not to use `calyxup` for some reason, please see the
 > [Other Calyxium Installation Methods page](#) for more options.
 
 The following steps install the latest stable version of Calyxium, which is compatible with all of the book's examples.
@@ -20,10 +20,10 @@ In other words, any newer, stable version of Calyxium you install using these st
 
 ### Installing `Calyxium` and `calyxup` on Windows, Linux and MacOS
 
-> PowerShell is required for clayxup
+> PowerShell is required for calyxup
 > you can find instructions on how to install [PowerShell here](https://learn.microsoft.com/en-us/powershell/scripting/whats-new/migrating-from-windows-powershell-51-to-powershell-7?view=powershell-7.5)
 
-Open a PowerShell terminal and enter the following commnad:
+Open a PowerShell terminal and enter the following command:
 
 ```console
 > curl --proto '=https' --tlsv1.2 <add link> | pwsh -Command -
@@ -32,4 +32,19 @@ The command downloads a script and starts the installation of the `calyxup`
 tool, which installs the latest stable version of Calyxium. You might be prompted
 for your password.
 
-# TODO add install instructions when calyxi is done 
+#### TODO add install instructions when calyxup is done 
+
+### Installing the `calyxium-lang` Extension
+
+To enable syntax highlighting and LSP server support, it's recommended to install the `calyxium-lang` extension for your preferred text editor.
+
+#### Visual Studio Code (VS Code)
+
+Installation instructions coming soon.
+
+#### Vim
+
+Installation instructions coming soon.
+
+
+

@@ -8,7 +8,7 @@ Calyxium is ideal for many people for a variety of reasons. Let’s look at a fe
 ### Students
 Calyxium is for students and those who are interested about learning functional programming concepts. Using Calyxium, many people have learned about topics like expression based languages, immutable variables and polymorphism.  The community is very welcoming and happy to answer student questions. Through efforts such as this book, the Calyxium teams want to make functional concepts more accessible to more people, especially those new to programming.
 
-## Whos This Book Is For
+## who Is This Book For
 
 This book assumes that you’ve written code in another programming language but
 doesn’t make any assumptions about which one. We’ve tried to make the material
