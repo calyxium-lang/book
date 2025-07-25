@@ -29,7 +29,7 @@ mdbook serve --open
 This will start a local development server and automatically open the book in your default web browser.
 
 
-## Useful VS Code Extensions
+## Spellchecking
 
 We recommend using the [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) extension for spell checking.
 
