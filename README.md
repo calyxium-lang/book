@@ -33,4 +33,4 @@ This will start a local development server and automatically open the book in yo
 
 We recommend using the [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) extension for spell checking.
 
-The words `Calyxium` and `calyxup` have already been added to the allowed word list in `cspell.json`, so they won't be flagged as spelling errors.
+The words `Calyxium` and `calyxup` have already been added to the word list in `cspell.json`, so they won't be flagged as spelling errors and can be suggested as correct spellings.
