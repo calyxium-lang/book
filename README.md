@@ -46,8 +46,8 @@ python run_tests.py
 
 If you want to **exclude a code block from testing**, simply add `,no` to the end of the language tag.
 
-## Useful VS Code Extensions
+## Spellchecking
 
 We recommend using the [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) extension for spell checking.
 
-The words `Calyxium` and `calyxup` have already been added to the allowed word list in `cspell.json`, so they won't be flagged as spelling errors.
+The words `Calyxium` and `calyxup` have already been added to the word list in `cspell.json`, so they won't be flagged as spelling errors and can be suggested as correct spellings.
