@@ -36,15 +36,7 @@ for your password.
 
 ### Installing the `calyxium-lang` Extension
 
-To enable syntax highlighting and LSP server support, it's recommended to install the `calyxium-lang` extension for your preferred text editor.
-
-#### Visual Studio Code (VS Code)
-
-Installation instructions coming soon.
-
-#### Vim
-
-Installation instructions coming soon.
+It is **highly recommended** to install the `calyxium-lang` extension by following the instructions [here](ch01-02-useful-development-tools.md#installing-the-calyxium-lang-extension).
 
 
 

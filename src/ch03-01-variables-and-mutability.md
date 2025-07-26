@@ -8,7 +8,7 @@ Then, open `variables.cx` and add it's following code which won't interpret just
 
 <span class="filename">Filename: `variables.cx`</span>
 
-```calyxium
+```calyxium,no
 let x: int = 10
 x := 12
 ```

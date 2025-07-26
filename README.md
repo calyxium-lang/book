@@ -28,6 +28,23 @@ mdbook serve --open
 
 This will start a local development server and automatically open the book in your default web browser.
 
+### Testing the Syntax of Code Blocks
+
+Code blocks labeled with `calyxium` will be automatically tested to ensure they contain valid syntax.
+
+These tests will run automatically when you run:
+
+```
+mdbook serve
+```
+
+You can also run the tests manually with:
+
+```
+python run_tests.py
+```
+
+If you want to **exclude a code block from testing**, simply add `,no` to the end of the language tag.
 
 ## Useful VS Code Extensions
 
