@@ -13,7 +13,6 @@ The following is a list of keywords currently in use, with their functionality d
 - `let` - bind a variable or function
 - `match` - match a value to patterns
 - `with` - branch based on the value of match
-- `return` - returns from function
 - `for` - loops over items from an iterator or unconditionally
 - `use` - in a module path, refers to the modules root
 - `mod` - define a module
