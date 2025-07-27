@@ -16,7 +16,7 @@ def get_md_files(test_dir):
 def run_test(file):
     try:
         result = subprocess.run(
-            ["calyxium", file],
+            ["calyxium", "--no-run", file],
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True
