@@ -6,7 +6,11 @@
     "words": [
         "Calyxium",
         "calyxup",
-        "mdbook"
+        "mdbook",
+        "opam",
+        "pwsh",
+        "setlocal",
+        "USERPROFILE"
     ],
     "ignoreWords": [],
     "import": []

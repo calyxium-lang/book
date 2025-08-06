@@ -13,12 +13,13 @@ The following is a list of keywords currently in use, with their functionality d
 - `let` - bind a variable or function
 - `match` - match a value to patterns
 - `with` - branch based on the value of match
-- `for` - loops over items from an iterator or unconditionally
 - `use` - in a module path, refers to the modules root
 - `mod` - define a module
 - `true` - Boolean true literal
 - `false` - Boolean false literal
 - `enum` - define an enumeration
+
+* ~~`for` - loops over items~~ Superseded by `rec`
 
 ### Keywords Reserved for Future Use
 
