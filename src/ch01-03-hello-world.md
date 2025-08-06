@@ -54,7 +54,7 @@ Regardless of your operating system, the string `Hello, world!` should print to
 the terminal.
 
 If `Hello, world!` did print, congratulations! You’ve officially written a Calyxium
-program. That makes you a Calyxium programmer Welcome!
+program. That makes you a *Calyxium programmer*. Welcome to the club!
 
 Let’s review this “Hello, world!” program in detail.
 
@@ -68,4 +68,4 @@ This line does all the work in this little program: it prints text to the screen
 
 - You see the `"Hello, world!"` string. We pass this string as an argument to `print`, and the string is printed to the screen.
 
-- Unlike in Python, `print` does not automatically add a newline `\n` at the end. If you want a line break, you’ll need to include `\n` yourself.
+- Unlike in Python, `print` does **not** automatically add a newline (`\n`) at the end. If you want a line break, you’ll need to include `\n` yourself.

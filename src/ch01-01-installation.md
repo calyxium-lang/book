@@ -3,7 +3,7 @@
 The first step is to install Calyxium. We'll download Calyxium through `calyxup`, a command line tool for managing Calyxium versions and associated tools. You’ll need an internet connection for the download.
 
 > Note: if you prefer not to use `calyxup` for some reason, please see the
-> [Other Calyxium Installation Methods page](#) for more options.
+> [Alternative Calyxium Installation Methods page](ch01-alternative-installation.md) for more options.
 
 The following steps install the latest stable version of Calyxium, which is compatible with all of the book's examples.
 Some program outputs may vary from the book because Calyxium often improves error messages and warnings. 
@@ -37,6 +37,4 @@ for your password.
 ### Installing the `calyxium-lang` Extension
 
 It is **highly recommended** to install the `calyxium-lang` extension by following the instructions [here](ch01-02-useful-development-tools.md#installing-the-calyxium-lang-extension).
-
-
 
