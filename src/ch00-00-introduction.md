@@ -14,8 +14,11 @@ This book assumes that you’ve written code in another programming language but
 doesn’t make any assumptions about which one. We’ve tried to make the material
 broadly accessible to those from a wide variety of programming backgrounds. We
 don’t spend a lot of time talking about what programming _is_ or how to think
-about it. If you’re entirely new to programming, you would be better served by
-reading a book that specifically provides an introduction to programming.
+about it. If you’re _entirely_ new to programming, you would be better served by
+reading a book that specifically provides an introduction to programming. 
+Don't feel threatened if you are new however, as it can be a good brain exercise,
+and you are also challenging yourself to do something new. Not a lot of people
+are doing that these days!
 
 ## How to Use This Book
 
@@ -45,6 +48,33 @@ might want to skip Chapter 2 and go straight to Chapter 3, returning to Chapter
 
 Chapter 5 discusses classes, structs and methods, and Chapter 6 covers enums, `match` expressions, and the `if` `then` `else` control flow construct.
 
-Finally, some appendixes contain useful information about the language in a more reference-like format. **Appendix A** covers Calyxium’s keywords, **Appendix B** covers Calyxium’s operators and symbols.
+Finally, some appendixes contain useful information about the language in a more reference-like format. [**Appendix A**](appendix-01-keywords.md) covers Calyxium’s keywords, [**Appendix B**](appendix-02-operators.md) covers Calyxium’s operators and symbols.
 
 There is no wrong way to read this book: if you want to skip ahead, go for it! You might have to jump back to earlier chapters if you experience any confusion. But do whatever works for you.
+
+The website version also contains a handy search feature over <span id="arrow" style="display: inline-block; transition: transform 0.2s ease; font-size: 2em; transform-origin: center;">↑</span> &nbsp;&nbsp;which you can use to search for Code Snippets in [**Appendix C**](appendix-03-codebytes.md) or for anything else you can think of.
+
+<script>
+  function updateArrowRotation() {
+    const arrow = document.getElementById('arrow');
+    const target = document.getElementById('search-toggle');
+    if (!arrow || !target) return;
+
+    const arrowRect = arrow.getBoundingClientRect();
+    const targetRect = target.getBoundingClientRect();
+
+    const arrowX = arrowRect.left + arrowRect.width / 2;
+    const arrowY = arrowRect.top + arrowRect.height / 2;
+    const targetX = targetRect.left + targetRect.width / 2;
+    const targetY = targetRect.top + targetRect.height / 2;
+
+    const angleRad = Math.atan2(targetY - arrowY, targetX - arrowX);
+    const angleDeg = angleRad * (180 / Math.PI);
+
+    arrow.style.transform = `rotate(${angleDeg + 90}deg)`;
+  }
+
+  window.addEventListener('load', updateArrowRotation);
+  window.addEventListener('resize', updateArrowRotation);
+  document.addEventListener('scroll', updateArrowRotation);
+</script>

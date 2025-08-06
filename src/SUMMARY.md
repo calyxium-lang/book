@@ -8,6 +8,7 @@
 
 [Keywords](appendix-01-keywords.md)
 [Operators](appendix-02-operators.md)
+[Snippets](appendix-03-codebytes.md)
 
 ---
 

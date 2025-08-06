@@ -7,6 +7,8 @@
 
 ## Building it yourself
 
+This method may not always result in a successful install as the version of Calyxium on Github may have some compatibility issues; especially if you use the dev branch. It is recommend that you stay on the the main branch which has less updates but should remain compatible for all devices. Of course, because you are using a more up to date version of Calyxium that has not been publicly released yet there may be new breaking changes that have not yet been documented in the books. With that out of the way, lets start with cloning the repository:
+
 ### Cloning the repository
 
 The first thing you want to do to build calyxium yourself is to clone the [repository](https://github.com/calyxium-lang/calyxium)
@@ -47,21 +49,23 @@ Once you have installed OCaml you will need to install Dune using the following 
 $ opam install dune
 ```
 
+---
+
 If you are having issues with opam, remember to activate the opam switch with the following command on cmd.
 
 ```console
 $ for /f "tokens=*" %i in ('opam env') do @%i
 ```
 
-and for PowerShell use this command
+and for PowerShell use this command.
 
 ```console
 > (& opam env) -split '\r?\n' | ForEach-Object { Invoke-Expression $_ }
 ```
 
-> Please note that on Windows if you want to use the `dune` or `calyxium` commands you will need to run either of the above commands whenever you start a new terminal. `opam` should not require this.
+> Please note that on Windows if you want to use the `dune` or `calyxium` commands you will need to run either of the above commands whenever you start a new terminal. `opam` should not require this. The book will assume you have ran the command above.
 
-If you want to circumvent this you have 2 options, either add `dune` and `calyxium` to the [system environment variables](#adding-to-system-variables), or make a new [terminal profile](#creating-terminal-profile) which automatically runs the command when opened. It is recommend to do the latter approach because you don't have to do this same process if you use other opam tools.
+If you want to circumvent this you have 2 options, either add `dune` and `calyxium` to the [system environment variables](#adding-to-system-variables), or make a new [terminal profile](#creating-terminal-profile) which automatically runs the command when opened. It is recommend to do the latter approach because you don't have to do this same process if you use other opam tools, you should also add `calyxium` to the system variables so its accessible to all terminal processes; `calyxup` would normally do this for you.
 
 #### Adding to system variables
 
@@ -106,7 +110,7 @@ This bonus tip is going to show you how you can do this with this new profile yo
 ---
 
 To do this make a new `.bat` file named what you want to type in to open this new profile terminal. For example `opt` (opam terminal)
-then enter the following code into the file and save it to where you want. In this instance we will use the directory where we put our icon earlier
+then enter the following code into the file and save it to where you want. In this instance we will use the directory where we put our icon earlier.
 
 ```batch
 @echo off
@@ -136,21 +140,19 @@ Now you can use the `opt` shortcut in Windows Explorer and on the start menu, th
 
 ### Running Dune
 
-Now that you've installed Dune and hopefully made a new terminal profile and completed the bonus tip, lets now `opt` into the `%USERPROFILE%\Documents\GitHub\calyxium` directory and run the following command.
+Now that you've installed Dune and hopefully made a new terminal profile and completed the bonus tip we can `opt` into the `%USERPROFILE%\Documents\GitHub\calyxium` directory and run the following 2 commands in sequence.
 
 ```console
 $ dune build --profile release
 ```
 
-and finally you can run the following command
-
 ```console
 $ dune install
 ```
 
-pretty self explanatory right? Thats it! You've completed this tutorial. You deserve a pat on the back!
-If you ever pull a new commit from the base repository, before you try and use calyxium,S run the following command just to
-stop anything strange from happening (speaking from experience). Then run the above command again.
+Pretty self explanatory right? Thats it! You've completed this tutorial. You deserve a pat on the back!
+If you ever pull a new commit from the base repository, before you try and use Calyxium, run the following command 
+to stop anything strange from happening (speaking from experience). Then run both commands again.
 
 ```console
 $ dune clear
