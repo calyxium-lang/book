@@ -42,11 +42,22 @@ let rec iterator(boolean: bool): unit  {
 
 iterator(boolean)
 ```
+<style>
+  #highlight-target {
+    transition: box-shadow 0.2s ease, filter 0.2s ease;
+  }
+
+  .highlighted {
+    box-shadow: 0 0 10px 3px #00ffff;
+    filter: brightness(1.5);
+  }
+</style>
 
 <script>
+  const arrow = document.getElementById('arrow');
+  const target = document.getElementById('search-toggle');
+
   function updateArrowRotation() {
-    const arrow = document.getElementById('arrow');
-    const target = document.getElementById('search-toggle');
     if (!arrow || !target) return;
 
     const arrowRect = arrow.getBoundingClientRect();
@@ -62,6 +73,9 @@ iterator(boolean)
 
     arrow.style.transform = `rotate(${angleDeg + 90}deg)`;
   }
+
+  arrow.addEventListener('mouseenter', () => target.classList.add('highlighted'));
+  arrow.addEventListener('mouseleave', () => target.classList.remove('highlighted'));
 
   window.addEventListener('load', updateArrowRotation);
   window.addEventListener('resize', updateArrowRotation);
