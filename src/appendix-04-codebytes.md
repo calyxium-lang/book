@@ -1,6 +1,6 @@
-# Appendix C: Code Bytes
+# Appendix D: Code Bytes
 
-This appendix contains some commonly used snippet examples in Calyxium; designed to be searched by that search bar up there <span id="arrow" style="display: inline-block; transition: transform 0.2s ease; font-size: 2em; transform-origin: center;">↑</span> &nbsp;&nbsp;&nbsp;give it a try!
+This appendix contains some commonly used snippet examples in Calyxium; designed to be searched by that search bar up <span id="arrow" style="display: inline-block; transition: transform 0.2s ease; font-size: 2em; transform-origin: center;">↑</span> &nbsp;&nbsp;&nbsp;give it a try!
 
 > Under Construction
 

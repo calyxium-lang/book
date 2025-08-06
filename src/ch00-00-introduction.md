@@ -48,11 +48,11 @@ might want to skip Chapter 2 and go straight to Chapter 3, returning to Chapter
 
 Chapter 5 discusses classes, structs and methods, and Chapter 6 covers enums, `match` expressions, and the `if` `then` `else` control flow construct.
 
-Finally, some appendixes contain useful information about the language in a more reference-like format. [**Appendix A**](appendix-01-keywords.md) covers Calyxium’s keywords, [**Appendix B**](appendix-02-operators.md) covers Calyxium’s operators and symbols.
+Finally, some appendixes contain useful information about the language in a more reference-like format. [**Appendix A**](appendix-01-keywords.md) covers Calyxium’s keywords, [**Appendix B**](appendix-02-operators.md) covers Calyxium’s operators and symbols and [**Appendix C**](appendix-03-functions.md) covers Calyxium's built-in functions.
 
 There is no wrong way to read this book: if you want to skip ahead, go for it! You might have to jump back to earlier chapters if you experience any confusion. But do whatever works for you.
 
-The website version also contains a handy search feature over <span id="arrow" style="display: inline-block; transition: transform 0.2s ease; font-size: 2em; transform-origin: center;">↑</span> &nbsp;&nbsp;which you can use to search for Code Snippets in [**Appendix C**](appendix-03-codebytes.md) or for anything else you can think of.
+The website version also contains a handy search feature over <span id="arrow" style="display: inline-block; transition: transform 0.2s ease; font-size: 2em; transform-origin: center;">↑</span> &nbsp;&nbsp;which you can use to search for Code Snippets in [**Appendix D**](appendix-04-codebytes.md) or for anything else you can think of.
 
 <style>
   #highlight-target {
