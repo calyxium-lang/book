@@ -12,7 +12,7 @@ The following is a list of built-ins currently in use, with their functionality 
 - `print` - prints to the terminal
 - `to_float` - converts integers to floats
 - `to_int` - converts floats to integers
-- `to_bytes` - converts floats, ints, and strings to bytes
+- `to_bytes` - converts strings to an array of bytes
 - `length` - returns the size of an array or string
 - `input` - 
 - `assert` - fails if the boolean expression is false

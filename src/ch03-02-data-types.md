@@ -29,25 +29,25 @@ Say a the max size of a float is 7 characters, when the numbers before the decim
 
 ### String
 
-This is a string (sequence) of [chars](#chars) and is used to store any word, phrase, paragraph you can think of!
+This is a string (sequence) of [chars](#byte) and is used to store any word, phrase, paragraph you can think of!
 The term string comes from "stringing" a sequence of characters together. The longest string you can make is `HIGHEST`.
 Although some devices may not be able to display them, strings can hold **any** character you will come across; that is,
-if they are within the [char](#chars) size limit.
+if they are within the [char](#byte) size limit.
 
 For example `"Hello world!"` or `"جبن"` or even `"😎👍"`
 
 To specify a string in code you just surround anything you want to write with a `"` character
 
-### Chars
+### Byte
 
 This is a **single** character and is want a [string](#string) is composed of. Again, it can be any character you can think of.
-The term is _char_ acter. The biggest character you can make is `BYTES` bytes. Once again, although some devices may
+It can also be referred to as a char. The biggest character you can make is `BYTES` bytes. Once again, although some devices may
 not be able to display them, chars can be any character you will come across, as long as they are within the limit.
 If you try and put more than one character in a char you will get an error, so just make it a [string](#string) if you are unsure.
 
 For example `'ö'` or `'ب'` or even `'😎'`
 
-To specify a char in code you just surround a **single** character you want to write with a `'` character
+To specify a byte in code you just surround a **single** character you want to write with a `'` character
 
 ### Bool
 
