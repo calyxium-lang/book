@@ -21,4 +21,4 @@ isn’t safely doing what you want it to do yet; they do _not_ mean that you’r
 not a good programmer! Experienced <add word for what we call people that use calyxium> still get interpreter errors.
 
 You received the error message:
-`` random `x` `` because mutable doesn't exist `x` yet **add later**.
+`` random `x` `` because mutable `x` doesn't exist yet **add later**.

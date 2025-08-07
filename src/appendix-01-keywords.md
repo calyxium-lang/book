@@ -19,7 +19,9 @@ The following is a list of keywords currently in use, with their functionality d
 - `false` - Boolean false literal
 - `enum` - define an enumeration
 
-* ~~`for` - loops over items~~ Superseded by `rec`
+### Deprecated keywords  
+
+* ~~`for` - loops over items~~ [Superseded by `rec`](appendix-03-codebytes.md#for-loops)
 
 ### Keywords Reserved for Future Use
 

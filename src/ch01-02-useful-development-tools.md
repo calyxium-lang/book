@@ -11,7 +11,9 @@ To enable syntax highlighting and LSP server support, it's recommended to instal
 
 #### Visual Studio Code (VS Code)
 
-Installation instructions coming soon.
+Click this link to open [VS Code to the extension page](vscode:extension/calyxium-lang.calyxium-syntax)
+
+Click install, you may be asked to restart VS Code.
 
 #### Vim
 
