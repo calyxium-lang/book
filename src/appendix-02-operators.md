@@ -10,7 +10,7 @@ Table B-1 contains the operators in Calyxium, an example of how the operator wou
 
 | Operators                 | Example                                                 | Explanation                                                           |
 | ------------------------- | ------------------------------------------------------- | --------------------------------------------------------------------- |
-| `!`                       | `!expr`                                                 | logical complement.                                                   |
+| `not`                     | `not expr`                                              | logical complement.                                                   |
 | `!=`                      | `expr != expr`                                          | Nonequality comparison.                                               |
 | `==`                      | `expr == expr`                                          | Equality comparison.                                                  |
 | `>`                       | `expr > expr`                                           | Greater than comparison.                                              |
@@ -25,9 +25,8 @@ Table B-1 contains the operators in Calyxium, an example of how the operator wou
 | `/`                       | `expr / expr`                                           | Arithmetic division.                                                  |
 | `%`                       | `expr % expr`                                           | Arithmetic remainder.                                                 |
 | `**`                      | `expr ** expr`                                          | Arithmetic power.                                                     |
-| `<<`                      | `expr << expr`                                          | Left-shift.                                                           |
-| `>>`                      | `expr >> expr`                                          | Right-shift.                                                          |
-| `>>>`                     | `expr >>> expr`                                         | Logical Right-shift.                                                  |
+| `lsl`                     | `expr lsl expr`                                         | Left-shift.                                                           |
+| `lsr`                     | `expr lsr expr`                                         | Right-shift.                                                          |
 | `=`                       | `var = expr`                                            | Assignment.                                                           |
 | `+=`                      | `var += expr`                                           | Arithmetic addition and assignment.                                   |
 | `-=`                      | `var -= expr`                                           | Arithmetic subtraction and assignment.                                |
@@ -40,14 +39,23 @@ Table B-1 contains the operators in Calyxium, an example of how the operator wou
 | `>>=`                     | `var >>= expr`                                          | Right-shift and assignment.                                           |
 | `++`                      | `var++`, `expr++`                                       | Incrementation.                                                       |
 | `--`                      | `var--`, `expr--`                                       | Decrementation.                                                       |
-| <code>&#x60;</code>       | <code>expr &#x60; expr</code>                           | Bitwise OR.                                                           |
-| `$`                       | `expr $ expr`                                           | Bitwise XOR.                                                          |
-| `~`                       | `~expr`                                                 | Bitwise NOT.                                                          |
-| `#`                       | `expr # expr`                                           | Bitwise AND.                                                          |
+| `lor`                     | `expr lor expr`                                         | Bitwise OR.                                                           |
+| `lxor`                    | `expr lxor expr`                                        | Bitwise XOR.                                                          |
+| `lnot`                    | `lnot expr`                                             | Bitwise NOT.                                                          |
+| `land`                    | `expr land expr`                                        | Bitwise AND.                                                          |
 | `->`                      | `pat -> expr`                                           | Part of match arm syntax.                                             |
 | `\|>`                     | `var \|> expr`, `expr \|> expr`                         | Passes left-hand value as input to right-hand expression.             |
 | `\|`                      | `\| pat`                                                | Part of match arm syntax.                                             |
-| `&`                       | `&var`                                                  | Dereference mutable copy. 
+| `&`                       | `&var`                                                  | Dereference mutable copy.                                             |
+| `^`                       | `string ^ string`                                       | String concatenation.                                                 |
+| `@`                       | `array @ array`                                         | Array concatenation.                                                  |
+| `..`                      | `1..10`, `1..`                                          | Range operator (inclusive).                                           |
+| `?`                       | `cond ? expr : expr`                                    | Part of ternary conditional operator.                                 |
+| `:`                       | `var: type`, `cond ? expr : expr`, `array[start:end]`   | Type ascription or ternary branch separator, or slice range separator.|
+| `;`                       | `expr; expr`                                            | Expression separator.                                                 |
+| `.`                       | `object.field`                                          | Member access.                                                        |
+| `_`                       | `match x with \| _ -> ...`                              | Wildcard pattern.                                                     |
+| `,`                       | `(a, b)`                                                | Comma separator (lists, tuples, args).                                |
 
 Table B-2 shows symbols that create comments.
 

@@ -57,7 +57,3 @@ The name comes from English mathematician [George Boole](https://en.wikipedia.or
 These are the least memory intensive only taking a single bit of storage.
 
 To write a boolean simply write `true` or `false`.
-
-### Byte
-
-> TODO
