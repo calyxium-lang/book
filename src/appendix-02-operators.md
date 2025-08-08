@@ -42,10 +42,12 @@ Table B-1 contains the operators in Calyxium, an example of how the operator wou
 | `--`                      | `var--`, `expr--`                                       | Decrementation.                                                       |
 | <code>&#x60;</code>       | <code>expr &#x60; expr</code>                           | Bitwise OR.                                                           |
 | `$`                       | `expr $ expr`                                           | Bitwise XOR.                                                          |
-| `~`                       | `~ expr`                                                | Bitwise NOT.                                                          |
+| `~`                       | `~expr`                                                 | Bitwise NOT.                                                          |
+| `#`                       | `expr # expr`                                           | Bitwise AND.                                                          |
 | `->`                      | `pat -> expr`                                           | Part of match arm syntax.                                             |
 | `\|>`                     | `var \|> expr`, `expr \|> expr`                         | Passes left-hand value as input to right-hand expression.             |
-| `\|`                      | `\| pat`                                                | Part of match arm syntax.                                             | 
+| `\|`                      | `\| pat`                                                | Part of match arm syntax.                                             |
+| `&`                       | `&var`                                                  | Dereference mutable copy. 
 
 Table B-2 shows symbols that create comments.
 
