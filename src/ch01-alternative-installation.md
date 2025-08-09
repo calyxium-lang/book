@@ -155,5 +155,5 @@ If you ever pull a new commit from the base repository, before you try and use C
 to stop anything strange from happening (speaking from experience). Then run both commands again.
 
 ```console
-$ dune clear
+$ dune clean
 ```

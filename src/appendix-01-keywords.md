@@ -17,7 +17,7 @@ The following is a list of keywords currently in use, with their functionality d
 - `mod` - define a module
 - `true` - Boolean true literal
 - `false` - Boolean false literal
-- `enum` - define an enumeration
+- `type` - define an enumeration, record and ADT
 
 ### Deprecated keywords  
 
@@ -28,7 +28,6 @@ The following is a list of keywords currently in use, with their functionality d
 The following keywords do not yet have any functionality but are reserved by
 Calyxium for potential future use.
 
-- `struct`
 - `class`
 - `extends`
 - `fn`

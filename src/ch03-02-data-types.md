@@ -52,7 +52,7 @@ To specify a byte in code you just surround a **single** character you want to w
 ### Bool
 
 Short for boolean, this data type has 2 states `true` or `false`. Sort of like a yes or no.\
-By doing `!my_boolean` you can reverse a boolean. These are used to control the flow of a program.
+By doing `not my_boolean` you can reverse a boolean. These are used to control the flow of a program.
 The name comes from English mathematician [George Boole](https://en.wikipedia.org/wiki/George_Boole) who developed [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra).\
 These are the least memory intensive only taking a single bit of storage.
 

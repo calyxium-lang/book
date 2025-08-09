@@ -14,11 +14,11 @@ how am I supposed to loop things? You may ask, well its pretty simple. You use t
 let rec iterator(index: int, max: int): unit  {
     if index < max then {
         print(index)
-        iterator(index+1,max)
+        iterator(index + 1, max)
     }
 }
 
-iterator(0,9)
+iterator(0, 9)
 ```
 
 The following code will run `print` 10 times.\
