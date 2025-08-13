@@ -5,6 +5,7 @@ language = "en"
 
 [output.html]
 git-repository-url = "https://github.com/Calyxium-Lang/book"
+additional-js = ["js/menu-title-link.js"]
 
 [preprocessor.random]
 command = "python run_tests.py"
