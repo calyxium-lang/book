@@ -2,8 +2,6 @@ name: Deploy book to parent
 
 on:
   push:
-    paths:
-      - 'book/src/**'
 
 jobs:
   deploy:
