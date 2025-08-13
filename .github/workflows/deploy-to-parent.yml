@@ -21,12 +21,10 @@ jobs:
           mdbook build
           cd ..
       
-      - name: Deploy to parent repo
-        uses: devops-infra/action-push-to-another-repository@v0.8.0
+      - name: Push to parent repo
+        uses: ad-m/github-push-action@v0.6.0
         with:
-          source-directory: book/book  # mdBook output usually goes into book/book
-          destination-github-username: calyxium-lang
-          destination-repository-name: calyxium-lang.github.io
-          destination-branch: main
-          destination-folder: docs
-          github-token: ${{ secrets.PARENT_REPO_TOKEN }}
+          repository: calyxium-lang/calyxium-lang.github.io
+          branch: main
+          folder: book/book  # folder to push
+          token: ${{ secrets.PARENT_REPO_TOKEN }}
