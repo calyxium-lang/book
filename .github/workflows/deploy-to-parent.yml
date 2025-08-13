@@ -1,0 +1,34 @@
+name: Deploy book to parent
+
+on:
+  push:
+    paths:
+      - 'book/src/**'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout book repo
+        uses: actions/checkout@v3
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@users.noreply.github.com"
+
+      - name: Build mdBook
+        run: |
+          cd book
+          mdbook build
+          cd ..
+      
+      - name: Deploy to parent repo
+        uses: devops-infra/action-push-to-another-repository@v0.8.0
+        with:
+          source-directory: book/book  # mdBook output usually goes into book/book
+          destination-github-username: calyxium-lang
+          destination-repository-name: calyxium-lang.github.io
+          destination-branch: main
+          destination-folder: docs
+          github-token: ${{ secrets.PARENT_REPO_TOKEN }}
