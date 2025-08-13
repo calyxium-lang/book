@@ -46,7 +46,7 @@ You can download and install OCaml from the [official site](https://ocaml.org/in
 Once you have installed OCaml you will need to install Dune using the following command.
 
 ```console
-$ opam install dune
+$ opam install dune zarith
 ```
 
 ---
@@ -155,5 +155,5 @@ If you ever pull a new commit from the base repository, before you try and use C
 to stop anything strange from happening (speaking from experience). Then run both commands again.
 
 ```console
-$ dune clear
+$ dune clean
 ```

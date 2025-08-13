@@ -46,7 +46,7 @@ Table B-1 contains the operators in Calyxium, an example of how the operator wou
 | `->`                      | `pat -> expr`                                           | Part of match arm syntax.                                             |
 | `\|>`                     | `var \|> expr`, `expr \|> expr`                         | Passes left-hand value as input to right-hand expression.             |
 | `\|`                      | `\| pat`                                                | Part of match arm syntax.                                             |
-| `&`                       | `&var`                                                  | Dereference mutable copy.                                             |
+| `!`                       | `!var`                                                  | Dereference mutable copy.                                             |
 | `^`                       | `string ^ string`                                       | String concatenation.                                                 |
 | `@`                       | `array @ array`                                         | Array concatenation.                                                  |
 | `..`                      | `1..10`, `1..`                                          | Range operator (inclusive).                                           |
@@ -56,6 +56,7 @@ Table B-1 contains the operators in Calyxium, an example of how the operator wou
 | `.`                       | `object.field`                                          | Member access.                                                        |
 | `_`                       | `match x with \| _ -> ...`                              | Wildcard pattern.                                                     |
 | `,`                       | `(a, b)`                                                | Comma separator (lists, tuples, args).                                |
+| `:=`                      | `var := expr`                                           | Mutable copy assignment.                                              |
 
 Table B-2 shows symbols that create comments.
 
