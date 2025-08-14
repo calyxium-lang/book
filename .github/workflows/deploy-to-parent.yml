@@ -17,14 +17,13 @@ jobs:
 
       - name: Build mdBook
         run: |
-          cd book
           mdbook build
-          cd ..
       
       - name: Push to parent repo
         uses: ad-m/github-push-action@v0.6.0
         with:
           repository: calyxium-lang/calyxium-lang.github.io
           branch: main
-          folder: book/book  # folder to push
+          folder: book/book        # mdBook output folder in the Book repo
+          destination-folder: docs # where in the parent repo to put it
           token: ${{ secrets.PARENT_REPO_TOKEN }}
