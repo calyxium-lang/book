@@ -30,7 +30,7 @@ jobs:
           # Remove old docs and copy new build
           rm -rf parent-repo/docs
           mkdir -p parent-repo/docs
-          cp -r book/book/* parent-repo/docs/
+          cp -r book/* parent-repo/docs/
 
           cd parent-repo
           git add .
