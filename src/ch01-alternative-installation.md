@@ -3,7 +3,6 @@
 > Note: It is **highly** recommend that you use `calyxup`.
 > [Standard Installation Method page](ch01-01-installation.md).\
 > This guide is not for the faint hearted. You have been warned!\
-> Currently this is the only method to install Calyxium
 
 ## Building it yourself
 
@@ -46,7 +45,7 @@ You can download and install OCaml from the [official site](https://ocaml.org/in
 Once you have installed OCaml you will need to install Dune using the following command.
 
 ```console
-$ opam install dune zarith
+$ opam install dune
 ```
 
 ---

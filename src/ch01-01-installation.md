@@ -18,6 +18,11 @@ In other words, any newer, stable version of Calyxium you install using these st
 > show the output of the previous command. Unless stated otherwise, PowerShell-specific
 > examples will use `>` rather than `$`.
 
+### Calyxium Installer
+
+Currently Calyxup isn't finished so you are going to have to install
+the latest version semi manually from the [downloads page](https://calyxium-lang.github.io/downloads/)
+
 ### Installing `Calyxium` and `calyxup` on Windows, Linux and MacOS
 
 > PowerShell is required for calyxup
