@@ -10,11 +10,6 @@ jobs:
       - name: Checkout book repo
         uses: actions/checkout@v3
 
-      - name: Set up Git
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@users.noreply.github.com"
-
       - name: Setup mdBook
         uses: peaceiris/actions-mdbook@v2
         with:
@@ -24,11 +19,20 @@ jobs:
         run: |
           mdbook build
       
-      - name: Push to parent repo
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          repository: calyxium-lang/calyxium-lang.github.io
-          branch: main
-          folder: book/book        # mdBook output folder in the Book repo
-          destination-folder: docs # where in the parent repo to put it
-          token: ${{ secrets.PARENT_REPO_TOKEN }}
+      - name: Deploy to Parent Repo
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+          # Clone the parent repo
+          git clone https://x-access-token:${{ secrets.PARENT_REPO_TOKEN }}@github.com/calyxium-lang/calyxium-lang.github.io.git parent-repo
+          
+          # Remove old docs and copy new build
+          rm -rf parent-repo/docs
+          mkdir -p parent-repo/docs
+          cp -r book/book/* parent-repo/docs/
+
+          cd parent-repo
+          git add .
+          git commit -m "Update book"
+          git push
