@@ -16,7 +16,9 @@ jobs:
           git config --global user.email "github-actions@users.noreply.github.com"
 
       - name: Setup mdBook
-        uses: ashleygwilliams/setup-mdbook@v1
+        uses: peaceiris/actions-mdbook@v2
+        with:
+          mdbook-version: 'latest'
 
       - name: Build mdBook
         run: |
