@@ -15,6 +15,9 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@users.noreply.github.com"
 
+      - name: Setup mdBook
+        uses: ashleygwilliams/setup-mdbook@v1
+
       - name: Build mdBook
         run: |
           mdbook build
