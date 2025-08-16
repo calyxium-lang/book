@@ -39,7 +39,7 @@ For example:
 
 ```calyxium
 -- $ Returns the square of a number $
-let square(x: int): int {
+let square(x) {
     x * x
 }
 ```

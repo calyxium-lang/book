@@ -11,7 +11,7 @@ and are no longer accessible. For those of you who are used to imperative progra
 how am I supposed to loop things? You may ask, well its pretty simple. You use the `rec` keyword. Below is a template `for` loop and how to use it.
 
 ```ocaml
-let rec iterator(index: int, max: int): unit  {
+let rec iterator(index, max)  {
     if index < max then {
         print(index)
         iterator(index + 1, max)
@@ -25,22 +25,19 @@ The following code will run `print` 10 times.\
 This is a very simple `for` loop style function but they can get much more 
 complex giving you more control than the standard `for` keyword from other languages.
 Calling the `iterator` function starts the loop and you pass in index 0 and the max loop value.\
-Passing in the values like this is similar to `for i in range(start,end)` in Python.
+Passing in the values like this is similar to `for i in range(start, end)` in Python.
 
 ### While loops
 
-You can do a similar thing for a `while` loop with the following code.\
-Currently this will not work as mutable variables need to be added.
+You can do a similar thing for a `while` loop with the following code.
 
 ```ocaml
-let rec iterator(boolean: bool): unit  {
-    if boolean then {
-        print("I'm a happy while loop!")
-        iterator(boolean)
-    }
+let rec iterator() {
+    print("I'm a happy while loop!")
+    iterator()
 }
 
-iterator(boolean)
+iterator()
 ```
 <style>
   #highlight-target {

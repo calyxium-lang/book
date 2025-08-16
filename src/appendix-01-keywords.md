@@ -17,7 +17,10 @@ The following is a list of keywords currently in use, with their functionality d
 - `mod` - define a module
 - `true` - Boolean true literal
 - `false` - Boolean false literal
-- `type` - define an enumeration, record and ADT
+- `enum` - define an enumeration
+- `record` - define a record
+- `type` - define a ADT
+- `fn` - define a anonymous functions, lambda abstraction
 
 ### Deprecated keywords  
 
@@ -30,5 +33,4 @@ Calyxium for potential future use.
 
 - `class`
 - `extends`
-- `fn`
 - `ref`

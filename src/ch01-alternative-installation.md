@@ -45,7 +45,7 @@ You can download and install OCaml from the [official site](https://ocaml.org/in
 Once you have installed OCaml you will need to install Dune using the following command.
 
 ```console
-$ opam install dune
+$ opam install dune menhir
 ```
 
 ---
