@@ -1,3 +1,3 @@
 # Foreword
 
-> Under Construction
+If you're interested in learning Calyxium, this book is the right place to start! Here you will find everything you need to know about the language and it's contents. The book will take you from the very basics to the more advanced concepts, and after you're finished reading you will have a good foundation to start using Calyxium. The book can also be used as reference material, specifically in the appendix. For any general questions or inquiries please join the discord server which is linked on the [github.](https://github.com/calyxium-lang)

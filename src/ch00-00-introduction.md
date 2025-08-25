@@ -2,13 +2,10 @@
 
 Welcome to _The Calyxium Programming Language_, an introductory book about Calyxium. The Calyxium programming language helps you write faster, reliable software. High-level ergonomics with purity, safety, and speed.
 
-## Who Calyxium is For
-Calyxium is ideal for many people for a variety of reasons. Let’s look at a few of the most important groups.
+## Who Calyxium Is For
+Calyxium is great for people like hobbyists, students and professionals looking to dwell deeper into functional programming. Although Calyxium is not a purely functional programming language it has a lot of similarities to existing ones like Haskell, OCaml F#.
 
-### Students
-Calyxium is for students and those who are interested about learning functional programming concepts. Using Calyxium, many people have learned about topics like expression based languages, immutable variables and polymorphism.  The community is very welcoming and happy to answer student questions. Through efforts such as this book, the Calyxium teams want to make functional concepts more accessible to more people, especially those new to programming.
-
-## who Is This Book For
+## Who Is This Book For
 
 This book assumes that you’ve written code in another programming language but
 doesn’t make any assumptions about which one. We’ve tried to make the material
@@ -20,7 +17,7 @@ Don't feel threatened if you are new however, as it can be a good brain exercise
 and you are also challenging yourself to do something new. Not a lot of people
 are doing that these days!
 
-## How to Use This Book
+## How To Use This Book
 
 In general, this book assumes that you’re reading it in sequence from front to
 back. Later chapters build on concepts in earlier chapters, and earlier
