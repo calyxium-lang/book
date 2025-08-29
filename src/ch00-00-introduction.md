@@ -3,7 +3,7 @@
 Welcome to _The Calyxium Programming Language_, an introductory book about Calyxium. The Calyxium programming language helps you write faster, reliable software. High-level ergonomics with purity, safety, and speed.
 
 ## Who Calyxium Is For
-Calyxium is great for people like hobbyists, students and professionals looking to dwell deeper into functional programming. Although Calyxium is not a purely functional programming language it has a lot of similarities to existing ones like Haskell, OCaml F#.
+Calyxium is great for people like hobbyists, students and professionals looking to dwell deeper into functional programming. Although Calyxium is not a purely functional programming language it has a lot of similarities to existing ones like Haskell, OCaml and F#.
 
 ## Who Is This Book For
 
