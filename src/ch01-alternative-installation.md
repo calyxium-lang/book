@@ -2,7 +2,7 @@
 
 > Note: It is **highly** recommend that you use `calyxup`.
 > [Standard Installation Method page](ch01-01-installation.md).\
-> This guide is not for the faint hearted. You have been warned!\
+> This guide is not for the faint hearted. You have been warned!
 
 ## Building it yourself
 
