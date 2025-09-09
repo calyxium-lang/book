@@ -38,7 +38,7 @@ If you are not a Windows user or are already in the target parent directory run 
 
 Now that you have cloned the repository you will need to go through the process of installing OCaml onto your system.
 
-You can download and install OCaml from the [official site](https://ocaml.org/install#win).
+You can download and install OCaml from the [official site](https://ocaml.org/install#windows).
 
 ### Installing Dune
 

@@ -21,7 +21,7 @@ In other words, any newer, stable version of Calyxium you install using these st
 ### Calyxium Installer
 
 Currently Calyxup isn't finished so you are going to have to install
-the latest version semi manually from the [downloads page](https://calyxium-lang.github.io/downloads/)
+the latest version manually.
 
 ### Installing `Calyxium` and `calyxup` on Windows, Linux and MacOS
 
