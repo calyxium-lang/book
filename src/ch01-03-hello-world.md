@@ -15,7 +15,7 @@ For Linux, macOS and PowerShell on Windows, enter this
 ```console
 $ mkdir ~/projects
 $ cd ~/projects
-$ mkdir hello_world
+$ calyxium new hello_world
 $ cd hello_world
 ```
 For Windows CMD, enter this:
@@ -23,7 +23,7 @@ For Windows CMD, enter this:
 ```cmd
 > mkdir "%USERPROFILE%\projects"
 > cd /d "%USERPROFILE%\projects"
-> mkdir hello_world
+> calyxium new hello_world
 > cd hello_world
 ```
 
@@ -38,7 +38,7 @@ Now open the `main.cx` file you just created and enter the code in listed below.
 
 
 ```calyxium
-print("Hello, world!")
+print("Hello from hello_world!\n")
 ```
 
 Save the file and go back to your terminal in the
@@ -47,7 +47,7 @@ commands to run the file:
 
 ```console
 $ calyxium main.cx
-Hello, world!
+Hello from hello_world!
 ```
 
 Regardless of your operating system, the string `Hello, world!` should print to
@@ -59,13 +59,13 @@ program. That makes you a *Calyxium programmer*. Welcome to the club!
 Let’s review this “Hello, world!” program in detail.
 
 ```calyxium
-print("Hello, world!")
+print("Hello from hello_world!\n")
 ```
 
 This line does all the work in this little program: it prints text to the screen. There are two important details to notice here.
 
 - `print` calls the function to display contents to your terminal.
 
-- You see the `"Hello, world!"` string. We pass this string as an argument to `print`, and the string is printed to the screen.
+- You see the `"Hello from hello_world!"` string. We pass this string as an argument to `print`, and the string is printed to the screen.
 
 - Unlike in Python, `print` does **not** automatically add a newline (`\n`) at the end. If you want a line break, you’ll need to include `\n` yourself.

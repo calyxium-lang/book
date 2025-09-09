@@ -19,6 +19,8 @@ The following is a list of built-ins currently in use, with their functionality 
 - `head` - returns the first element of an array
 - `tail` - returns a new array containing all elements except the first
 - `reverse` - returns a new array with elements in the opposite order
+- `fst` - returns the first element of a tuple
+- `snd` - returns the second element of a tuple
 
 ### Built-ins Reserved for Future Use
 

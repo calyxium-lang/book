@@ -17,9 +17,7 @@ The following is a list of keywords currently in use, with their functionality d
 - `mod` - define a module
 - `true` - Boolean true literal
 - `false` - Boolean false literal
-- `enum` - define an enumeration
-- `record` - define a record
-- `type` - define a ADT
+- `type` - define a ADT/record, and enumeration
 - `fn` - define a anonymous functions, lambda abstraction
 
 ### Deprecated keywords  
