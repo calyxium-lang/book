@@ -10,5 +10,5 @@ additional-js = ["js/menu-title-link.js"]
 [preprocessor.random]
 command = "python run_tests.py"
 
-[calyxium]
-edition = "2025"
+# [calyxium]
+# edition = "2025"
