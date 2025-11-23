@@ -64,7 +64,7 @@ The website version also contains a handy search feature over <span id="arrow" s
 
 <script>
   const arrow = document.getElementById('arrow');
-  const target = document.getElementById('search-toggle');
+  const target = document.getElementById('mdbook-search-toggle');
 
   function updateArrowRotation() {
     if (!arrow || !target) return;
